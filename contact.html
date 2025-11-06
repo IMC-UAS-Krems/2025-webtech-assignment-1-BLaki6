@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Barnabás Laki</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="active" href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="page-header">
+                    <h2>Send me a message</h2>
+                    <hr>
+                </div>
+                <div class="form-field">
+                    <input type="hidden" name="access_key" value="054f0aed-c4a8-4a59-99b2-e7d03a2213dc">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                </div>
+                <div class="form-field">
+                    <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="message" placeholder="Your Message" class="contact-input" id="message"></textarea>
+                </div>
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <p>Barnabás Laki's first assignment</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
